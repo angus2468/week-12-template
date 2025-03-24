@@ -6,6 +6,8 @@ export default function Page() {
     <div>
       <h1>Stories Page</h1>
       <p>list of all stories: </p>
+      <p>some sort of sort funcionality</p>
+      <p>fetch the data from the database and list the stories</p>
       {data.map((item) => (
         <div key={item}>
           <Link href={`/stories/${item}`} className="text-blue-400">
@@ -13,7 +15,6 @@ export default function Page() {
           </Link>
         </div>
       ))}
-      <p>Add a story </p>
     </div>
   );
 }
