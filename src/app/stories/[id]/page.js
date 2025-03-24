@@ -6,7 +6,7 @@ export default async function Page({ params }) {
     <div>
       <h1>Story {id.id} page</h1>
       <p>Story data</p>
-      <p>Link to the user's profile</p>
+      <p>Link to the user&apos;s profile</p>
     </div>
   );
 }
